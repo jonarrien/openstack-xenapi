@@ -41,7 +41,7 @@ if [ -n "$previous_template" ]; then
 fi
 
 # Get built-in template
-builtin_name="Debian Squeeze 6.0 (32-bit)"
+builtin_name="Debian Wheezy 7.0 (32-bit)"
 builtin_uuid=$(get_template "$builtin_name" $host)
 if [[ -z $builtin_uuid ]]; then
     echo "Can't find the Debian Squeeze 32bit template on your XenServer."

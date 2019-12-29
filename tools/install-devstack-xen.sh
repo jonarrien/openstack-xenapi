@@ -76,7 +76,7 @@ exit 1
 
 # Defaults for optional arguments
 DEVSTACK_SRC=${DEVSTACK_SRC:-"https://github.com/openstack-dev/devstack"}
-OS_XENAPI_SRC=${OS_XENAPI_SRC:-"https://github.com/openstack/os-xenapi"}
+OS_XENAPI_SRC=${OS_XENAPI_SRC:-"https://github.com/jonarrien/openstack-xenapi"}
 TEST_TYPE="none"
 FORCE_SR_REPLACEMENT="false"
 EXIT_AFTER_JEOS_INSTALLATION=""
@@ -474,7 +474,7 @@ cat << LOCALCONF_CONTENT_ENDS_HERE > local.conf
 # --------------------------------
 [[local|localrc]]
 
-enable_plugin os-xenapi https://github.com/openstack/os-xenapi.git
+enable_plugin os-xenapi https://opendev.org/x/os-xenapi.git
 
 # workaround for bug/1709594
 CELLSV2_SETUP=singleconductor

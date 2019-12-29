@@ -45,8 +45,8 @@ MGT_IP=${MGT_IP:-dhcp}
 MGT_NETMASK=${MGT_NETMASK:-ignored}
 
 # Ubuntu install settings
-UBUNTU_INST_RELEASE="xenial"
-UBUNTU_INST_TEMPLATE_NAME="Ubuntu 16.04 (64-bit) for DevStack"
+UBUNTU_INST_RELEASE="bionic"
+UBUNTU_INST_TEMPLATE_NAME="Ubuntu Bionic Beaver 18.04"
 # For 12.04 use "precise" and update template name
 # However, for 12.04, you should be using
 # XenServer 6.1 and later or XCP 1.6 or later
